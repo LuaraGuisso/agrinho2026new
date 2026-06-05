@@ -13,6 +13,6 @@ h1 {
 }
 .image img{
     width: 530px; /*tamanho da imagem*/
-    height: 600px; 
+    height: auto; 
 
 }
