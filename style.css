@@ -7,5 +7,12 @@ h1 {
     text-align: center; /* para deixar no centro*/
     font-size: 40px; /*tamanho da letra*/
 }
+.image{
+    text-align: center; /* para centralizar a imagem*/
 
+}
+.image img{
+    width: 400px; /*tamanho da imagem*/
+    height: auto; /* automático, altura e largura*/
 
+}
