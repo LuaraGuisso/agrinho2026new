@@ -17,8 +17,15 @@ h1 {
     
 }
 
-.fieldest{
+fieldset{
     margin-top: 30px;
-    font-size: large;
-    font-size: 35px;
+    padding: 15px;
+    font-size: 25px;
+    border: 4px solid green;
+    border-radius: 10px;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bold;
 }
