@@ -12,7 +12,7 @@ h1 {
 
 }
 .image img{
-    width: 400px; /*tamanho da imagem*/
-    height: auto; /* automático, altura e largura*/
+    width: 600px; /*tamanho da imagem*/
+    height: 400px; 
 
 }
