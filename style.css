@@ -1,13 +1,17 @@
 header h1{
-    font-family: 𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽; // fonte do título
-    font-size: 400px; //tamanho da letra
-    margin: top 30px;
-    color: white;
+   .titulo {
+    font-family: "Bold Script"; /*fonte abaixada*/
+    font-size: 40px;
+    color: white;  /* cor do titulo*/
+    text-align: center;
+    margin-top: 30px;
+}
+   
     
 }
 
 body {
-    background-color: rgb(3, 125, 3);
+    background-color: rgb(3, 125, 3); /* cor de fundo*/
 }
 
 
