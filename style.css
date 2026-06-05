@@ -1,11 +1,11 @@
 body {
-    background-color: green;
+    background-color: green; /* cor de fundo*/
+    color: white; /* fundo das escritas*/
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    font-size: 40px;
+    text-align: center; /* para deixar no centro*/
+    font-size: 40px; /*tamanho da letra*/
 }
 
 
