@@ -1,5 +1,5 @@
 body {
-    background-color: green; /* cor de fundo*/
+    background-color: rgb(132, 211, 240); /* cor de fundo*/
     color: white; /* fundo das escritas*/
 }
 
@@ -20,8 +20,8 @@ h1 {
 fieldset{
     margin-top: 30px;
     padding: 15px;
-    font-size: 25px;
-    border: 4px solid green;
+    font-size: 25px; /* o tamanho da letra*/
+    border: 4px solid rgb(46, 2, 147);
     border-radius: 10px;
 }
 
