@@ -14,5 +14,9 @@ h1 {
 .image img{
     width: 530px; /*tamanho da imagem*/
     height: auto; 
+    
+}
+.p{
+    font: size 90px;
 
 }
