@@ -105,9 +105,9 @@ li{
     transform: scale(2.08);
 }
 
-}.video-logo{
-    display: flex; *para deixa os dois na mesmo linha*/
-    align-items: right: .video-logo;
+}.video-biogás{
+    display: flex; /*para deixa os dois na mesmo linha*/
+    align-items: right;
     gap: 40px;
 }
 
