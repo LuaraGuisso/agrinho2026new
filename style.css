@@ -97,6 +97,7 @@ li{
     cursor: pointer;/* muda o formato do mouse quando ele passa por cima de algo. ex: quando é para
     clicar em um botão aparece uma mãozinha, afirmando que é para clicar*/
     transition: 0.3s;
+    color: #61490d;
 }
 /*esse comando é para quando o mouse passar em cima o botão tem uma transição, ele tem um movimento*//
 
