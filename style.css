@@ -105,7 +105,7 @@ li{
     transform: scale(2.08);
 }
 .videos{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    display: flex; /*para deixa os dois na mesmo linha*/
+    justify-content: right;
+    gap: 40px;
 }
