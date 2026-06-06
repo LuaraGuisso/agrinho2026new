@@ -108,7 +108,7 @@ li{
 }.video-biogás{
     display: flex; /*para deixa os dois na mesmo linha*/
     align-items: right;
-    gap: 40px;
+    gap: 80px;
 }
 
 .video-logo img{
