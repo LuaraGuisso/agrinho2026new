@@ -104,8 +104,13 @@ li{
 .botao-gas:hover{
     transform: scale(2.08);
 }
-.videos{
-    display: flex; /*para deixa os dois na mesmo linha*/
-    justify-content: right;
+
+}.video-logo{
+    display: flex; *para deixa os dois na mesmo linha*/
+    align-items: right: .video-logo;
     gap: 40px;
+}
+
+.video-logo img{
+    width: 150px;
 }
