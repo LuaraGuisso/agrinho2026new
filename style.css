@@ -104,3 +104,8 @@ li{
 .botao-gas:hover{
     transform: scale(2.08);
 }
+.videos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
