@@ -92,7 +92,7 @@ li{
     width: 110px; /*largura*/
     height: 110px; /*altura*/
     border: none; /* tiro o contorno da borda*/
-    border-radius: 90px; /*arredonda os cantos*/
+    border-radius: 360px; /*arredonda os cantos*/
     font-size: 35px;
     cursor: pointer;/* muda o formato do mouse quando ele passa por cima de algo. ex: quando é para
     clicar em um botão aparece uma mãozinha, afirmando que é para clicar*/
