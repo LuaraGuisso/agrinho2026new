@@ -106,9 +106,10 @@ li{
 }
 
 }.video-biogás{
-    display: flex; /*para deixa os dois na mesmo linha*/
-    align-items: right;
-    gap: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px; /* distância entre o vídeo e a logo */
 }
 
 .video-logo img{
