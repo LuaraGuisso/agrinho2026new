@@ -62,8 +62,8 @@ li{
     margin-bottom: 10px; /*espaço externo*/
 }
 .inicio {
-    margin: 10px;
-    height: 100vh; /* altura em relação as janelas do computador*/
+    margin: 0px;
+    height: 600vh; /* altura em relação as janelas do computador*/
     display: flex; /* para organizar, sem ele algumas tags não funcionam*/
     justify-content: left; /* centraliza na horizontal*/
     align-items: center; /* centraliza na vertical*/
