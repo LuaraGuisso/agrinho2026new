@@ -109,7 +109,7 @@ li{
      display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px; /* distância entre o vídeo e a logo */
+    gap: 30px; /* distância entre o vídeo e a logo */
 }
 
 .video-logo img{
