@@ -114,4 +114,5 @@ li{
 .video-logo img{
     width: 350px;
     height: auto;
+    gap: 60;
 }
