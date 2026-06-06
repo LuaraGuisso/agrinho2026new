@@ -94,10 +94,11 @@ li{
     border-radius: 25px; /*arredonda os cantos*/
     font-size: 35px;
     cursor: pointer;/* muda o formato do mouse quando ele passa por cima de algo. ex: quando é para
-    clicar em um botão aparece uma mãozinha, afirmando que é para clicar.*/
+    clicar em um botão aparece uma mãozinha, afirmando que é para clicar*/
     transition: 0.3s;
 }
 /*esse comando é para quando o mouse passar em cima o botão tem uma transição, ele tem um movimento*//
+
 .botao-gas:hover{
-    transform: scale(1.08);
+    transform: scale(2.08);
 }
