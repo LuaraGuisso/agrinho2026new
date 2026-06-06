@@ -61,3 +61,14 @@ ul{
 li{
     margin-bottom: 10px; /*espaço externo*/
 }
+.inicio {
+    margin: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
