@@ -1,1 +1,5 @@
-# agrinho2026new
+Eu desenvolvi este projeto para o concurso Agrinho 2026 com o objetivo de mostrar como o biogás pode ajudar o meio ambiente e também os fazendeiros. Enquanto pensava no tema, percebi que muitos resíduos produzidos no campo acabam sendo descartados de forma incorreta, causando poluição e desperdício. Por isso, decidi criar um site explicando como esses resíduos podem ser transformados em energia renovável.
+
+Minha ideia principal foi unir preservação ambiental, tecnologia e economia de energia dentro do agronegócio. Além de ajudar o planeta, o biogás também pode diminuir os gastos nas propriedades rurais, trazendo mais sustentabilidade e economia para os produtores.
+
+O projeto se relaciona diretamente com os objetivos do Agrinho 2026, que incentiva a conscientização ambiental, a valorização do agronegócio e o uso de soluções sustentáveis no campo. O programa mostra como o agro pode crescer de maneira responsável, utilizando tecnologia e inovação para cuidar do meio ambiente e melhorar a qualidade de vida das pessoas.
