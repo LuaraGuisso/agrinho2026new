@@ -13,6 +13,7 @@ O projeto se relaciona diretamente com os objetivos do Agrinho 2026, que incenti
  
  
 <h1><strong>REFERÊNCIAS</strong></h1>
+
  Imagem: https://chpbrasil.com.br/blog/beneficios-do-biogas-na-agropecuaria
  benefícios: https://chpbrasil.com.br/blog/beneficios-do-biogas-na-agropecuaria
  utilizei o chat gpt para me auxiliar em alguns código que eu tinha em dúvida, e tb utilizei para corrigir os códigos que estavam errados.
