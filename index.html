@@ -5,25 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potencial do Biogás no Agronegócio</title>
 
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #d8f3dc, #95d5b2);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            width: 90%;
+            max-width: 700px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .topo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        input {
+            width: 100%;
+            max-width: 350px;
+            padding: 12px;
+            border: 2px solid #c9a227;
+            border-radius: 10px;
+            background-color: #d4af37;
+            color: white;
+            font-size: 16px;
+        }
+
+        input::placeholder {
+            color: white;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: green;
+        }
+
+        #mensagem {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .botao-gas {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: none;
+            background: white;
+            font-size: 45px;
+            cursor: pointer;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .botao-gas:hover {
+            transform: scale(1.1);
+        }
+
+        .texto-botao {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
-<body class="inicio">
+<body>
 
-    <div class="container"> <!-- div é a divisão-->
+    <div class="container">
 
-        <h1>Potencial do Biogás no Agronegócio</h1>
+        <div class="topo">
+            <input type="text" id="nome" placeholder="Digite seu nome">
+        </div>
 
-        <p>Clique no botão para saber mais!</p>
+        <h1>
+            Potencial do <span>Biogás</span> no Agronegócio 🌱
+        </h1>
 
-        <button class="botao-gas" onclick="entrar()"> <!-- aqui está o botão para entrar para a 
-            próxima página-->
+        <p id="mensagem">
+            Clique no botão para saber mais!
+        </p>
+
+        <button class="botao-gas" onclick="entrar()">
             ⛽
         </button>
 
+        <p class="texto-botao">
+            Clique para continuar
+        </p>
+
     </div>
 
-    <script src="script.js"></script> <!-- aqui se interligaa com o java script-->
+    <script>
+        function entrar() {
+            let nome = document.getElementById("nome").value;
+
+            if (nome === "") {
+                document.getElementById("mensagem").innerHTML =
+                "Digite seu nome para continuar.";
+            } else {
+                document.getElementById("mensagem").innerHTML =
+                "Olá, " + nome + "! O biogás transforma resíduos em energia limpa para o agronegócio.";
+            }
+        }
+    </script>
 
 </body>
 </html>
