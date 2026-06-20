@@ -116,5 +116,96 @@ li{
     width: 350px;
     height: auto;
    
-    
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #d8f3dc, #95d5b2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    border: 2px solid #c9a227;
+    border-radius: 10px;
+    background-color: #d4af37;
+    color: white;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: green;
+}
+
+#mensagem {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.botao-gas {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(23, 132, 8);
+    font-size: 45px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.botao-gas:hover {
+    transform: scale(1.1);
+}
+
+.texto-botao {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    input {
+        width: 100%;
+    }
 }
