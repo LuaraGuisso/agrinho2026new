@@ -1,6 +1,6 @@
 body {
-    background-color: 63, 38, 2, 0.961; /* cor de fundo*/
-    color: rgb(129, 227, 104); /* fundo das escritas*/
+    background-color: green; /* cor de fundo*/
+    color: rgb(254, 254, 254); /* fundo das escritas*/
 }
 
 h1 {
@@ -44,7 +44,7 @@ ul{
 fieldset{
     width: 400px; /*tamanho*/
     padding: 20px;
-    border: 5px solid rgb(216, 226, 15); /* Borda grossa */
+    border: 5px solid rgb(188, 197, 7); /* Borda grossa */
     border-radius: 15px;/*raio da borda*/
     font-size: 20px;/*tamanho da letra*/
 }
