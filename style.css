@@ -66,7 +66,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #aee96e, #b3d883);
+    background: linear-gradient(to right, #6ac40a, #5b950f);
     font-family: Georgia, serif;
 }
 
@@ -75,14 +75,14 @@ li{
 }
 
 .container h1{
-    color: rgb(192, 235, 155);
+    color: rgb(7, 12, 2);
     font-size: 55px;
     margin-bottom: 30px;
     font-weight: bold;
 }
 
 .container p{
-    color: rgb(175, 236, 110);
+    color: rgb(12, 16, 7);
     font-size: 38px;
     margin-bottom: 50px;
 
