@@ -146,7 +146,7 @@ li {
     height: 45px; /* Altura do botão da lua */
     border: none; /* Tira a borda padrão */
     border-radius: 50%; /* Deixa o botão redondo */
-    background: rgb(118, 203, 87); /* Cor de fundo branca no tema claro */
+    background: rgb(172, 223, 154); /* Cor de fundo branca no tema claro */
     font-size: 22px; /* Tamanho do emoji da lua */
     cursor: pointer; /* Mostra a mãozinha ao passar o mouse */
     transition: .3s; /* Tempo do efeito de hover */
@@ -159,7 +159,7 @@ li {
 /* MODO NOTURNO  */
 
 .dark {
-    background: linear-gradient(to right, #266e1c, #094602); /* Troca o fundo por um degradê escuro */
+    background: linear-gradient(to right, #010401, #062902); /* Troca o fundo por um degradê escuro */
     color: white; /* Muda a cor padrão do texto para branco */
 }
 
