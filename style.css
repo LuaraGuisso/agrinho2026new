@@ -60,7 +60,7 @@ li {
     display: flex; /* Ativa o flexbox para alinhar o conteúdo */
     justify-content: center; /* Centraliza na horizontal */
     align-items: center; /* Centraliza na vertical */
-    background: linear-gradient(to right, #6ac40a, #5b950f); /* Fundo em degradê verde */
+    background: linear-gradient(to right, #a2f44a, #5b950f); /* Fundo em degradê verde */
     font-family: Georgia, serif; /* Tipo de letra com serifa */
 }
 
