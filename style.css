@@ -1,120 +1,189 @@
 body {
-    background-color: green; /* cor de fundo*/
-    color: rgb(254, 254, 254); /* fundo das escritas*/
+    background-color: green; /* Cor de fundo verde do site */
+    color: rgb(254,254,254); /* Cor do texto em branco */
+    margin: 0; /* Tira as margens padrão para colar o conteúdo nas bordas */
+    transition: 0.4s; /* Transição suave de 0.4 segundos ao mudar de tema */
 }
 
 h1 {
-    text-align: center; /* para deixar no centro*/
-    font-size: 40px; /*tamanho da letra*/
-}
-.image{
-    text-align: center; /* para centralizar a imagem*/
-
-}
-.image img{
-    width: 530px; /*tamanho da imagem*/
-    height: auto; 
-    
+    text-align: center; /* Centraliza os títulos h1 */
+    font-size: 40px; /* Tamanho da fonte dos títulos h1 */
 }
 
-fieldset{
-    margin-top: 30px;
-    padding: 15px;
-    font-size: 25px; /* o tamanho da letra*/
-    border: 4px solid rgb(254, 254, 254); /*cor da borda */
-    border-radius: 10px;
+.image {
+    text-align: center; /* Centraliza o bloco da imagem */
 }
 
-legend{
-    font-size: 30px;
-    font-weight: bold;
+.image img {
+    width: 530px; /* Largura fixa para a imagem */
+    height: auto; /* Altura automática para não distorcer o arquivo */
 }
 
-ul{
-    font-size: 32px;
+/*  FIELDSET*/
+
+fieldset {
+    margin-top: 30px; /* Espaço em cima da caixa */
+    padding: 20px; /* Espaço interno da caixa */
+    width: 400px; /* Largura máxima da caixa */
+    font-size: 20px; /* Tamanho do texto dentro da caixa */
+    border: 5px solid rgb(188,197,7); /* Borda grossa amarela/esverdeada */
+    border-radius: 15px; /* Cantos arredondados na borda */
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    gap: 30px; /* Espaço entre os quadros */
-    margin-top: 30px;
+legend {
+    font-size: 28px; /* Tamanho do título da caixa */
+    font-weight: bold; /* Deixa o título em negrito */
 }
 
-fieldset{
-    width: 400px; /*tamanho*/
-    padding: 20px;
-    border: 5px solid rgb(188, 197, 7); /* Borda grossa */
-    border-radius: 15px;/*raio da borda*/
-    font-size: 20px;/*tamanho da letra*/
+ul {
+    font-size: 32px; /* Tamanho do texto das listas */
+    padding-left: 20px; /* Afasta a lista para a direita */
 }
 
-legend{
-    font-size: 28px;
-    font-weight: bold; /* espessura da borda*/
+li {
+    margin-bottom: 10px; /* Espaçamento entre um item da lista e outro */
 }
 
-ul{
-    padding-left: 20px; /* espaço interno*/
+/*CONTAINER*/
+
+.container {
+    display: flex; /* Alinha os blocos filhos lado a lado */
+    justify-content: center; /* Centraliza os blocos na horizontal */
+    gap: 30px; /* Espaço de 30px entre um bloco e outro */
+    margin-top: 30px; /* Espaço por fora na parte de cima */
 }
 
-li{
-    margin-bottom: 10px; /*espaço externo*/
-}
-.inicio{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #6ac40a, #5b950f);
-    font-family: Georgia, serif;
-}
+/* PÁGINA INICIAL*/
 
-.container{
-    text-align: center;
+.inicio {
+    height: 100vh; /* Faz a tela inicial ocupar a altura inteira do monitor */
+    display: flex; /* Ativa o flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    background: linear-gradient(to right, #6ac40a, #5b950f); /* Fundo em degradê verde */
+    font-family: Georgia, serif; /* Tipo de letra com serifa */
 }
 
-.container h1{
-    color: rgb(7, 12, 2);
-    font-size: 55px;
-    margin-bottom: 30px;
-    font-weight: bold;
+.inicio .container {
+    display: block; /* Faz os itens ficarem um abaixo do outro nesta tela */
+    text-align: center; /* Centraliza todos os textos da tela de início */
 }
 
-.container p{
-    color: rgb(12, 16, 7);
-    font-size: 38px;
-    margin-bottom: 50px;
-
+.container h1 {
+    color: rgb(7,12,2); /* Cor do h1 dentro do container */
+    font-size: 55px; /* Tamanho grande para o título principal */
+    margin-bottom: 30px; /* Espaço embaixo do título */
 }
 
-.botao-gas{
-    width: 110px; /*largura*/
-    height: 110px; /*altura*/
-    border: none; /* tiro o contorno da borda*/
-    border-radius: 360px; /*arredonda os cantos*/
-    font-size: 35px;
-    cursor: pointer;/* muda o formato do mouse quando ele passa por cima de algo. ex: quando é para
-    clicar em um botão aparece uma mãozinha, afirmando que é para clicar*/
-    transition: 0.3s;
-    color: #618003;
-}
-/*esse comando é para quando o mouse passar em cima o botão tem uma transição, ele tem um movimento*//
-
-.botao-gas:hover{
-    transform: scale(2.08);
+.container p {
+    color: rgb(12,16,7); /* Cor do texto do parágrafo */
+    font-size: 38px; /* Tamanho do texto do parágrafo */
+    margin-bottom: 30px; /* Espaço embaixo do parágrafo */
 }
 
-}.video-logo{
-     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px; /* distância entre o vídeo e a logo */
+/*  INPUT DO NOME*/
+
+#nome {
+    width: 300px; /* Largura do campo de texto */
+    padding: 12px; /* Espaço interno para o texto não ficar apertado */
+    border: none; /* Tira a borda padrão do navegador */
+    border-radius: 12px; /* Arredonda os cantos do campo */
+    font-size: 20px; /* Tamanho da letra ao digitar */
+    text-align: center; /* Centraliza o texto digitado */
+    outline: none; /* Tira a linha de clique azul/preta do campo */
 }
 
-.video-logo img{
-    width: 350px;
-    height: auto;
-   
+/*BOTÃ*/
 
+.botao-gas {
+    width: 110px; /* Largura do botão */
+    height: 110px; /* Altura do botão */
+    border: none; /* Tira a borda padrão */
+    border-radius: 360px; /* Deixa o botão totalmente redondo */
+    font-size: 35px; /* Tamanho do ícone/texto interno */
+    cursor: pointer; /* Transforma a seta do mouse na mãozinha de clique */
+    transition: .3s; /* Tempo da animação de hover */
+    color: #618003; /* Cor do elemento interno */
+}
+
+.botao-gas:hover {
+    transform: scale(1.15); /* Aumenta o tamanho do botão em 15% ao passar o mouse */
+}
+
+/* VÍDEOS*/
+
+.video-logo {
+    display: flex; /* Coloca o vídeo e a imagem lado a lado */
+    justify-content: center; /* Centraliza o conjunto na horizontal */
+    align-items: center; /* Alinha os dois pelo meio na vertical */
+    gap: 30px; /* Espaço entre o vídeo e a logo */
+}
+
+.video-logo img {
+    width: 350px; /* Tamanho da logo ao lado do vídeo */
+    height: auto; /* Mantém a proporção da altura da logo */
+}
+
+/* TOPO*/
+
+.topo {
+    display: flex; /* Coloca os itens do topo em linha */
+    justify-content: flex-end; /* Joga os elementos para o canto direito */
+    align-items: center; /* Alinha os elementos na vertical */
+    gap: 15px; /* Espaço entre o nome e o botão da lua */
+    padding: 20px; /* Espaçamento interno da barra do topo */
+}
+
+#nomeUsuario {
+    margin: 0; /* Zera a margem padrão do h3 */
+    font-size: 22px; /* Tamanho da fonte do nome do usuário */
+}
+
+/*  BOTÃO MODO NOTURNO*/
+
+#modoNoturno {
+    width: 45px; /* Largura do botão da lua */
+    height: 45px; /* Altura do botão da lua */
+    border: none; /* Tira a borda padrão */
+    border-radius: 50%; /* Deixa o botão redondo */
+    background: white; /* Cor de fundo branca no tema claro */
+    font-size: 22px; /* Tamanho do emoji da lua */
+    cursor: pointer; /* Mostra a mãozinha ao passar o mouse */
+    transition: .3s; /* Tempo do efeito de hover */
+}
+
+#modoNoturno:hover {
+    transform: scale(1.10); /* Aumenta o botão da lua em 10% no hover */
+}
+
+/* MODO NOTURNO  */
+
+.dark {
+    background: linear-gradient(to right, #10260d, #1b3d17); /* Troca o fundo por um degradê escuro */
+    color: white; /* Muda a cor padrão do texto para branco */
+}
+
+/* Garante que todas essas tags fiquem brancas no modo escuro */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h5,
+.dark p,
+.dark li,
+.dark legend,
+.dark i {
+    color: white;
+}
+
+.dark fieldset {
+    border: 5px solid #d8ff5e; /* Muda a borda das caixas para um tom limão mais visível */
+}
+
+.dark #modoNoturno {
+    background: #f4f4f4; /* Fundo do botão da lua no modo escuro */
+    color: #0f2c0f; /* Cor do ícone da lua no modo escuro */
+}
+
+.dark iframe {
+    border-radius: 10px; /* Arredonda os cantos dos vídeos no modo escuro */
 }
