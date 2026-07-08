@@ -1,6 +1,6 @@
 body {
-    background-color: green; /* Cor de fundo verde do site */
-    color: rgb(254,254,254); /* Cor do texto em branco */
+    background-color: rgb(140, 219, 140); /* Cor de fundo verde do site */
+    color: rgb(10, 2, 2); /* Cor do texto em branco */
     margin: 0; /* Tira as margens padrão para colar o conteúdo nas bordas */
     transition: 0.4s; /* Transição suave de 0.4 segundos ao mudar de tema */
 }
@@ -93,7 +93,7 @@ li {
     outline: none; /* Tira a linha de clique azul/preta do campo */
 }
 
-/*BOTÃ*/
+/*BOTÃO*/
 
 .botao-gas {
     width: 110px; /* Largura do botão */
